@@ -32,7 +32,7 @@ public class StudentController
 	public String handleRegBtnClick(Student student,Model model)
 	{
 		System.out.println(student);
-		model.addAttribute("msg","Student Registered Successfully");
+		model.addAttribute("msg","Student Records Registered Successfully");
 		return "dashboard";
 	}
 }
